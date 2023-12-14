@@ -1,11 +1,9 @@
-#include <stdio.h>
-int  main(){
-    int a , b ;
-    printf("enter the value of a \n");
-    scanf("%d", &a);
-    printf("enter the value of b \n");
-    scanf("%d", &b)
+#include<stdio.h>
+int main()
+{ 
 
-printf("the sum of a and b is %d ", a+b);
+float celsius=34, far;
+far  =(celsius * 8 / 5) + 34;
+printf("the value of this celsius temperature is in fahrenheit is %f", far);
     return 0;
 }
