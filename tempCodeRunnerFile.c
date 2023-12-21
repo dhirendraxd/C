@@ -1,23 +1,18 @@
 #include<stdio.h>
 int main()
 { 
-    //
-int a =4;
-int b =5;
-int z=b+a;
-// we can also add two variables in a line and then print it but b + a = z; its a error code isn't possible  
+int x=4;
+int y=9;
+printf("the value of 3*x - 8*y is %d \n ",3*x - 8*y);
 
-printf("the value of z is %d \n" ,z);
-printf("the value of a * b is :%d\n ",a*b);
-printf("the value of a / b is :%d\n ",a / b);
-printf("the value of a + b is :%d\n",a+b);
-printf("the value of a - b is :%d\n ",a-b);
-// we can add sub , dic and somplify  as above  and : is not mandatory  we can use it or remove as we want 
+    /* the given maths operators are given priority as of they are listed in numbers  :
 
-printf("when divided by 2  it leaves a reminder of %d \n ",5%2);
-printf(" when -5  divided by 2  it leaves a reminder of %d \n ",5%-2);
-printf("when divided by 2  it leaves a reminder of %d \n ",-5%2);
-// in c we dont assume any thing  to let computer assume by itself we always have to  give proper command 
-printf("the value of 4 to power 5 is %f\ n",pow(2,5));
+              1)  * / %
+              2)  + -
+              3)  =
+
+
+//  printf("the value of 3*x - 8*y is %d \n ",3*(x - 8*y)); 
+if we apply () as above then  the equation inside  this would be given first priority  even though  is symbol is not as we have studied */
     return 0;
 }

@@ -49,11 +49,16 @@ printf("when divided by 2  it leaves a reminder of %d \n ",-5%2);
 // in c we dont assume any thing  to let computer assume by itself we always have to  give proper command 
 printf("the value of 4 to power 5 is %f\ n",pow(2,5));
 // so if we want  to get the power of any number we can put them inside pow( ) and get the value of them 
+
+
 // type conversion 
+int a =3.5;
+//in this case 3.5 which is a float will be denoted to 3 because a is not able to store floats  cause int is  used to store data in a single form not in decimals 
+int r=3.0/9;
+printf("the val of r is %f  \n");
 
-
-
-
+float a=8;
+// in this a will store 8.0 cause float is used to store decimal value so even if we give a single digit to it it will always  give 8.0  
 
 
     return 0;
