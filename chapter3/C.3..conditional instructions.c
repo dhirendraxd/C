@@ -25,3 +25,5 @@ scanf("%d",&b);
 
     return 0;
 }
+// for more check the below link :
+// https://www.programiz.com/c-programming/c-operators
