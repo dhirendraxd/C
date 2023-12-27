@@ -15,7 +15,7 @@ int main()
 
 // !(vippass=1)) about the (not) (!)  this change the statement if the condition is true it will be false and false will be true  // as if " sach ko jhut aur jhut ko sach banadena wala  ko kya keheta ha not operator "
 
-    if (age >= 18 && age <= 89 || !(vippass==1))
+    if (age >= 18 && age <= 89 || !(vip pass==1))
 
 
     // the (and) &&  is used to combine two or more  conditions in  a way that the entire expressions evalutes to true only if all the individuals are true(will work if only both of the conditions are true either it wont work )

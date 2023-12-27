@@ -3,7 +3,7 @@ int main()
 { 
  int age=0;
   
-printf("enter your age: \n");
+printf("enter your age: \n");;
 scanf("%d ", &age);
 
 printf("your age is %d \n", age);
@@ -61,16 +61,65 @@ scanf("%d",&d);
 int main()
 { 
 int age;
-printf("enter your fuking age ");
+printf("enter your  age mate!!  ");
 scanf("%d",&age);
  if (age>=90)
  {
-    printf("ayy yo wtf you doin ");
+    printf("ayy yo wtf you doin \n");
  }
  
  else{
-    printf("you been doin nice ");
+    printf("you been doin nice \n");
  }
 
+    return 0;
+}
+
+//
+
+
+
+
+// the below program shows the grade as of the prompt from user 
+
+#include<stdio.h>
+int main()
+{ 
+int grade;
+printf("enter your grade:");
+scanf("%d",&grade);
+
+if (grade>100)
+{
+printf("invalid grade ");
+}
+else if (grade>90)
+{
+    printf("A \n");
+}
+
+else if (grade>80 &&grade<=90)
+{
+    printf("B\n");
+}
+else if (grade>70 &&grade<=80)
+{
+    printf("C\n");
+}
+else if (grade>60 &&grade<=70)
+
+{
+    printf("D\n");
+
+}
+else if (grade<70)
+
+{
+    printf("you fail bro\n");
+}
+
+else{
+    printf("nerd\n");
+}
     return 0;
 }
