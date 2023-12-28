@@ -1,36 +1,34 @@
+
 #include<stdio.h>
 int main()
 { 
-int grade;
-printf("enter your grade")
-scanf("%d",&grade)
 
-if (grade>100)
-{
-printf("A")
-}
-else if (grade>80 &&grade<=90)
-{
-    printf("B")
-}
-else if (grade>70 &&grade<=80)
-{
-    printf("C")
-}
-else if (grade>60 &&grade<=70)
+    int physics,chemistry,maths;
+     printf("enter phy num")
+     scanf("%d" &physics)
 
-{
-    printf("D")
+     printf("enter chemi")
+     scanf("%d",&chemistry)
 
-}
-else if (grade<70)
+     printf("enter maths")
+     scanf("%d",&maths)
 
-{
-    printf("you fail bro")
-}
 
-else{
-    printf("nerd")
-}
+     total= (physics+maths+chemistry)/3;
+     if (total<40 || physics<33||maths<33||chemistry<33)
+
+
+     {
+ printf("your total precentage is %d and you are failed ",total);
+     }
+     else
+     { 
+        printf("you are passed and your percentage is %d /n",total );
+     }
+     
+     
+
+
+
     return 0;
 }
