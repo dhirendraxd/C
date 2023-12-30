@@ -2,33 +2,27 @@
 #include<stdio.h>
 int main()
 { 
+   float tax=0 , income;
+   printf("enter your income \n");
+   scanf("%f",&income);
 
-    int physics,chemistry,maths;
-     printf("enter phy num")
-     scanf("%d" &physics)
+   if (income>= 250000 &&income<=50000)
+   {
+      tax= tax*0.05(income - 250000);
 
-     printf("enter chemi")
-     scanf("%d",&chemistry)
+   }
+   if (income>= 1000000 && income<=1000000)
+   {
+      tax= tax + 0.20 * (income- 500000);
+   }
 
-     printf("enter maths")
-     scanf("%d",&maths)
+   if (income>=1000000)
+   {
+      tax = tax + 0.30 * (income - 1000000);
 
+   }
+    
+    printf("your net income tax to be paid by 26th of this month is %f \n",tax)
 
-     total= (physics+maths+chemistry)/3;
-     if (total<40 || physics<33||maths<33||chemistry<33)
-
-
-     {
- printf("your total precentage is %d and you are failed ",total);
-     }
-     else
-     { 
-        printf("you are passed and your percentage is %d /n",total );
-     }
-     
-     
-
-
-
-    return 0;
+   return 0;
 }
