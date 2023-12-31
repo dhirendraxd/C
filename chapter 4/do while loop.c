@@ -34,6 +34,7 @@ int main()
                   } while (a<=n);
 // in this program we can also print 1 to 10 without the scanf function ,by declaring a as 0 and writing a condition as a<=10 (the = is to print all the numbers upto 10 not till 9)
 
-
     return 0;
 }
+
+.//
