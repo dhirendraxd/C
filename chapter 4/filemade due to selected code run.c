@@ -1,15 +1,23 @@
+}
 
-//quiz
 #include<stdio.h>
 int main()
 { 
-    int n;
-    printf("enter the value of n ");
-    scanf("%d" &n,)
-    for (int  i = n; i>=0; i--)
-    {
-        printf("the reverse numbers are %d",i);
-            }
-    
-    return 0;
+
+   int i =0;
+   while (i<=20)
+   {
+      if (i>=10)
+      {
+         printf("the valud of i is %d \n",i);
+      }
+      
+      i++;
+      // first print then increase 
+
+      ++i;
+      // first incrase and then print 
+      // (same for -- also )
+   }
+   return 0;
 }
