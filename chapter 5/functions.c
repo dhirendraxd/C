@@ -5,7 +5,7 @@ void clasher ();  // Declaration
 int main()
 { 
 
-// function call
+// function call 
 clasher();
 
 
