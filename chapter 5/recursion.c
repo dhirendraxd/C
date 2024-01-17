@@ -9,12 +9,13 @@ void helloprint(int count){
         return;
     }
     printf("helloworld");
-    helloprint(count-1);
+    helloprint(count-1); // this is used when we want to decrease the value of a functions each times it is made  
+
 }
 
 
 int main(){ 
 
-helloprint(63);
+helloprint(63); // this is a recursive function
     return 0;
 }
