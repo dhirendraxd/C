@@ -1,6 +1,6 @@
 #include<stdio.h>
-// arguments passing in function 
-void printtable(int n );
+
+void printtable(int n );// arguments passing in function 
 // void is used when we dont want to a function to return a value 
 
 
