@@ -1,0 +1,1 @@
+a single integer is of 4 bytes  and  also depends on its architecture  (1= 4 bytes)
