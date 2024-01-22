@@ -8,6 +8,8 @@ int main()
  switch (rating) {
  case 1:
  //test
+ //test
+ //test
  // the case should always be in numbers and should be sequence wise written so that it would be easier to read data init 
  printf("your rating is 1");
 break;
