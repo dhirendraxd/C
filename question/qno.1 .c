@@ -404,3 +404,28 @@ scanf("%d %d",&num,&originalnumebr);
      printf("the sum of %d is %d",originalnumebr ,sum);
     return 0;
 }
+// using switch case
+#include<stdio.h>
+int main()
+{ 
+    int red;
+    printf("enter a number ");
+    scanf("%d",&red);
+
+    switch (red)
+    {
+    case 1:
+        printf("this is no 1 ");
+        break;
+    case 2:
+    if (red>0)
+    {
+        printf("its more then 1 ");
+    }
+    break;
+    default:
+    printf("its not even a word ");
+        break;
+    }
+    return 0;
+}
