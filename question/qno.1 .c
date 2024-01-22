@@ -401,7 +401,7 @@ scanf("%d %d",&num,&originalnumebr);
         sum= sum+remainder;
         num=num/10;
      }
-     printf("the sum of %d is %d",originalnumebr ,sum);
+     printf("the sum of %d is %d",originalnumebr ,sum +remainder);
     return 0;
 }
 // using switch case

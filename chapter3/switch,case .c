@@ -7,6 +7,7 @@ int main()
  scanf("%d", &rating);
  switch (rating) {
  case 1:
+ //test
  // the case should always be in numbers and should be sequence wise written so that it would be easier to read data init 
  printf("your rating is 1");
 break;
@@ -87,7 +88,8 @@ int main()
       break;  
       }
     break;
-    default:printf("thank for talking kid\n ");
+    default: 
+    printf("thank for talking kid\n ");
       break;
     }
   }
