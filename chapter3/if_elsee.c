@@ -37,6 +37,7 @@ int main()
 // draft code for future use 
 
 if(age==3,4,53,534,3)// this is not a valid code
+
 // if we want to make more  values the we can also use  as below
     if (age == 3 || age == 4 || age == 53 || age == 534 || age == 3)
 // if "if" executes then else wont  and viceversa
@@ -49,4 +50,3 @@ else
     printf("heyy you made it to end ")
 }
 
-//
