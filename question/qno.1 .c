@@ -21,6 +21,9 @@ else
     return 0;
 }
 
+
+
+
 // Write a C program that takes two integer inputs from the user and prints the larger of the two.
 #include<stdio.h>
 int main()
@@ -43,6 +46,8 @@ scanf("%d %d", &one,&two)
     }
     return 0;
 }
+
+
 // Write a C program that checks whether a given year is a leap year or not. The program should take the year as input from the user.
 #include<stdio.h>
 int main()
@@ -65,6 +70,10 @@ scanf("%d",&year);
 
     return 0;
 }
+
+
+
+
 // Write a C program to determine if a student has passed or failed an exam. The program should take the student's marks as input from the user. Consider that the passing marks are 40.
 
 #include<stdio.h>
@@ -85,6 +94,9 @@ printf("your are passed \n");
 }
     return 0;
 }
+
+
+
 
 // Write a C program that takes three integer inputs from the user and prints the largest number using nested if statements.
 
@@ -122,6 +134,8 @@ scanf("%d %d %d",&three,&two ,&one );
       }
     return 0;
 }
+
+
 // Write a C program to calculate the roots of a quadratic equation (ax^2 + bx + c = 0). The program should take the values of a, b, and c as input from the user. Assume that the discriminant (b^2 - 4ac) is greater than or equal to 0.
 #include <stdio.h>
 #include <math.h>
@@ -153,6 +167,8 @@ int main() {
     return 0;
 }
 
+
+
 // Write a C program that takes two integers as input and prints whether their sum is even or odd.
 #include<stdio.h>
 int main()
@@ -175,6 +191,8 @@ else
 }
     return 0;
 }
+
+
 // Write a C program that takes an integer input and checks whether it is a prime number. If it's not a prime number, print its factors.
 
 #include <stdio.h>
@@ -222,6 +240,8 @@ int main() {
 
     return 0;
 }
+
+
 // Write a C program that takes three integers as input and prints them in ascending order.
 #include<stdio.h>
 int main()
@@ -247,6 +267,9 @@ if (num1>num2)
 
     return 0;
 }
+
+
+
 
 //Write a C program that takes an integer input representing a year and prints whether it is a leap year or not. If it's a leap year, also print the number of days in February.
 #include<stdio.h>

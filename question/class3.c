@@ -26,7 +26,7 @@ int main() {
     // Calculate the sum of the matrices
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
-            sum[i][j] = matrix1[i][j] + matrix2[i][j];
+            sum[i][j] = matrix1[i][j] + matrix2[i][j];//  summing up the data in a matrix is jut adding the two  matix data using loop and printing their datat using loop 
         }
     }
 

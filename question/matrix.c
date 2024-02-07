@@ -8,7 +8,7 @@ int main() {
     int rows = 3;
     int cols = 2;
 
-    // Input matrix
+    // Input  for 1st matrix
     printf("Enter elements for a 3x2 matrix:\n");
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
@@ -17,7 +17,7 @@ int main() {
         }
     }
 
-    // Display original matrix
+    // Display original matrix of 1st
     printf("\nOriginal Matrix:\n");
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
@@ -44,6 +44,14 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
 
 // wap to enter elements in two diff elements and display the product of them 
 
@@ -99,7 +107,7 @@ int main() {
 
 int main() {
     int matrix1[2][2], matrix2[2][2], product[2][2];
-
+    int i,j,k;
     // Input for the first matrix
     printf("Enter elements for the first 2x2 matrix:\n");
     for (int i = 0; i < 2; i++) {

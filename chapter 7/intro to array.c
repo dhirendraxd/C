@@ -41,19 +41,6 @@ for ( i = 0; i < 2; i++)
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 for ( i = 0; i < 5; i++)
 {
     for ( i = 0; i < ; i++)
@@ -62,11 +49,6 @@ for ( i = 0; i < 5; i++)
     }
     
 }
-
-
-
-
-
 
 // how to acess 1D elements..forloop
 for (int  i = 0; i < 5; i++)

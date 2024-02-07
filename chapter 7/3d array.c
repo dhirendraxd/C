@@ -15,7 +15,7 @@ int main() {
         }
     }
 
-    // Nested loops to print the data in the 3D array
+// Nested loops to print the data in the 3D array
     printf("The data in the 3D array are:\n");
     for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 3; j++) {
