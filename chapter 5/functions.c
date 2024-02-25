@@ -33,6 +33,7 @@ void goodbye();
 void hello(){
     printf("hi")
     goodbye();
+// we can also add anotehr function inside another function 
 }
 
 void goodbye(){
@@ -49,13 +50,6 @@ int main()
     return 0;
 
 }
-
-
-
-
-
-// 
-
 #include<stdio.h>
 void namaste();
 void bonjur();
@@ -80,7 +74,7 @@ if (word=='i' && word=='t' ) //  using '&&' only execute when both the condition
 
 else{
     bonjur();
-}
+} 
     return 0;
 }
 

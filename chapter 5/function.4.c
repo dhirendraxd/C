@@ -8,7 +8,7 @@ int x=a+1;// shoudl declare it as a variable in this kind a scenes
 }
 int main()
 { 
-
+  
 int a =23;// may also use the value using scanf
 int b=32;// may also use the value using scanf
 
