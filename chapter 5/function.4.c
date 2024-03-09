@@ -3,8 +3,9 @@ int sumofnumbers(int a, int b);
 // int is used when we want a function to return a value 
 
 int sumofnumbers(int a, int b){ // can also use x and y for a and  b 
-int x=a+1;// shoudl declare it as a variable in this kind a scenes 
-    return a+b; // this can be called a returning function cause it returns a+b init
+int x;
+x=a+1;// shoudl declare it as a variable in this kind a scenes 
+    return x; // this can be called a returning function cause it returns a+b init
 }
 int main()
 { 

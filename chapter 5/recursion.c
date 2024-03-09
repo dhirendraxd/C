@@ -4,10 +4,15 @@
 void helloprint( int count);
 
 void helloprint(int count){
-    if (count==0)
+    if (count==0 || count==1)
     {
-        return;
+        return 1;
     }
+    else
+    {
+        return count * factorial(x-1);
+    }
+    
     printf("helloworld");
     helloprint(count-1); // this is used when we want to decrease the value of a functions each times it is made  
 
@@ -15,6 +20,7 @@ void helloprint(int count){
 
 
 int main(){ 
+
 
 helloprint(63); // this is a recursive function
     return 0;
