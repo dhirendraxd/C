@@ -8,7 +8,7 @@ int main()
     char s1[12]="dhiren";
     char s2[23]="dra singh";
     concatted[40];// defining a variable to store the values of both 
-
+    // the  length  have to be specific cause it will help in  storing data 
 
    **  concatted=strcat(s1,s2);  // this wont work cause stract dont pass value to other variables 
 
@@ -16,7 +16,9 @@ int main()
 //            instead               
     strcat(s1,s2) // attached or s1 stored the value of s2 init 
     printf("concates strings :%s",s1); // output :  dhiren dra singh 
-
+ 
+ // to prints string its ("%s")
+ 
   note : when we use strcat(v1,v2) the value of v2 will be automitically stored in the v1 made or along with it , and also the string capacity shoudl be more to combine both of the variables along with the null terminator
 
     strcpy(concatted, s1);  // Copy s1 into concatted
