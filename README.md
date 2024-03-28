@@ -1,4 +1,4 @@
-# Project Name: Super-Duper-Awesome-Codeinator
+#  Super-Duper-Awesome-Codeinator
 
 🚀 Welcome to the Super-Duper-Awesome-Codeinator! The most amazing project in the entire universe! 🌌
 
