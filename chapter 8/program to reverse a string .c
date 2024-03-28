@@ -2,6 +2,10 @@
 #include<string.h>
 // function for  reversing string incase strrev does't works 
  
+
+ // this is a function to reverse any given result by user  
+ // must read for exam 
+
 void reverseString(char* str) {
     int length = strlen(str);
     int i, j;
@@ -16,6 +20,7 @@ void reverseString(char* str) {
 
 
 
+
 int main()
 { 
     char s1[20]="dhirendra ";
@@ -24,6 +29,7 @@ int main()
 
     puts(s1); 
      printf("%s",s1);
-// the strev will reverse the letter ardnerihd 
+// the strev will reverse the letter  : ardnerihd .......
+
     return 0;
 }
