@@ -14,7 +14,7 @@ struct class s[50]; // now this will store the data for 50 class of data in it..
 int main()
 { 
      
-     struct class s[50];
+     struct class s[50]; // normal sr
      
     
 
