@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include <stdlib.h>
+#include<string.h>
 int main()
 { 
      
@@ -31,8 +33,6 @@ int a =10;
                  // in this filehokya is used to give idea about form where the data is reterived and where to store it 
                      
                      //In simpler terms, `filehokya` is a pointer that tells the functions (`fputc()`, `fprintf()`) where to write the data. When you open a file using `fopen()` and assign it to `filehokya`, it becomes associated with that file. So, when you use `fputc()` or `fprintf()` with `filehokya`, those functions know to write data to the file pointed to by `filehokya`. It's like telling someone the address of a house - once they know the address, they can go to that house to deliver or retrieve things. Similarly, `filehokya` tells the functions where to deliver the data you want to write.
-                 
- 
 
 
 fclose(filehokya); //  after the use we shoudl always close the program 
