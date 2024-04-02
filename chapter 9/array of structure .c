@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 struct class
 {
     int rollno;
@@ -7,16 +7,14 @@ struct class
     float fee;
 };
 
-struct class s[50]; // now this will store the data for 50 class of data in it..... 
- 
- //         its a global variable cause its not inside of the main function 
+struct class s[50]; // now this will store the data for 50 class of data in it.....
+
+//         its a global variable cause its not inside of the main function
 
 int main()
-{ 
-     
-     struct class s[50]; // normal sr
-     
-    
+{
+
+    struct class s[50]; // normal sr
 
     return 0;
 }

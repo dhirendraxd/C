@@ -1,18 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 
-typedef struct studentsofengineering // in short typedef is a  nickname for strucutre and we can call and use it as the main programs refernce 
+typedef struct studentsofengineering
+// in short typedef is a  nickname for strucutre and we can call and use it as the main programs refernce
 {
     int rollno;
     char name;
     float idnum;
 } voe; // now this voe can be used to call the struct funtion instead of the full name studentsofengineering we can use or call it by voe
- 
- // Define a structure named studentsofengineering and create an alias voe for it
 
+// Define a structure named studentsofengineering and create an alias voe for it
 
 int main()
-{ 
- struct studentsofengineering s1={"hi"} // normal method without shorthand 
+{
+    struct studentsofengineering s1 = {"hi"} // normal method without shorthand
 
     // You can declare variables of type voe to create instances of the structure
     voe s1;
@@ -41,7 +41,6 @@ int main()
     return 0;
 }
 
-
 //
-    return 0;
+return 0;
 }

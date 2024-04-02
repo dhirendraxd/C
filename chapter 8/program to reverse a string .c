@@ -1,35 +1,33 @@
-#include<stdio.h>
-#include<string.h>
-// function for  reversing string incase strrev does't works 
- 
+#include <stdio.h>
+#include <string.h>
+// function for  reversing string incase strrev does't works
 
- // this is a function to reverse any given result by user  
- // must read for exam 
+// this is a function to reverse any given result by user
+// must read for exam
 
-void reverseString(char* str) {
+void reverseString(char *str)
+{
     int length = strlen(str);
     int i, j;
     char temp;
-    
-    for (i = 0, j = length - 1; i < j; i++, j--) {
+
+    for (i = 0, j = length - 1; i < j; i++, j--)
+    {
         temp = str[i];
         str[i] = str[j];
         str[j] = temp;
     }
 }
 
-
-
-
 int main()
-{ 
-    char s1[20]="dhirendra ";
+{
+    char s1[20] = "dhirendra ";
     reverseString(s1);
     strev(s1);
 
-    puts(s1); 
-     printf("%s",s1);
-// the strev will reverse the letter  : ardnerihd .......
+    puts(s1);
+    printf("%s", s1);
+    // the strev will reverse the letter  : ardnerihd .......
 
     return 0;
 }
