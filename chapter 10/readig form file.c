@@ -12,6 +12,12 @@ int main(){
 
 // easier form to read data inside of a file 
 fgetc(fptr);
+// loop running until fgetc gets EOF 
+while (ch!=EOF)
+{
+    printf("%c",ch);
+    ch=fgetc(fptr);
+}
 
 
     fscanf(fptr,"%c",&ch);
