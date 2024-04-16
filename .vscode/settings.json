@@ -69,5 +69,9 @@
       "addWords": true,
       "scope": "workspace"
     }
-  }
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 9,
+  "files.autoSaveWhenNoErrors": true,
+  "files.autoSaveWorkspaceFilesOnly": true
 }

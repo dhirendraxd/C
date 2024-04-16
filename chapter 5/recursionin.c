@@ -20,7 +20,7 @@ int main() {
     int n = 0;
     int fact = 1;
 
-    printf("Enter any number: ");
+    printf("Enter any number: "); 
     scanf("%d", &n);
 
     fact = factorial(n); // Call factorial function with input n
