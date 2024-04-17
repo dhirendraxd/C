@@ -13,7 +13,7 @@ int main(){
 // easier form to read data inside of a file 
 fgetc(fptr);
 // loop running until fgetc gets EOF 
-while (ch!=EOF)
+while (ch!=EOF) v 
 {
     printf("%c",ch);
     ch=fgetc(fptr);
@@ -50,6 +50,7 @@ fprintf(fptr,"%c",'u');
 
 // easier form for writing data inside :
 fputc('hi',fptr);
+
 
     fclose(fptr);
 return 0;
