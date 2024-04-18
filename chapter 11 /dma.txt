@@ -1,3 +1,6 @@
 
 Dynamic memory allocation in C refers to the process of allocating memory for variables or data structures during program execution, rather than at compile time. This allows programs to allocate memory as needed, enabling them to work with varying amounts of data or handle data whose size is not known until runtime.
 
+the main work for calloc is to initialize 0 in all the  variables  overflow and under flow of memeory is saved from this 
+
+the main work for calloc is to uninitialize   the  variables   which cause  variables having any random garbage value 
