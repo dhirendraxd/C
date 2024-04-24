@@ -229,3 +229,26 @@ int main(){
 return 0;
 }
 // ternary operator
+
+
+// function for returning max
+int functimax(int x,int y); // this is a function prototype 
+int functimax(int x,int y){
+// if (x>y)
+// {
+//     return x;
+// }
+// else
+// {
+//     return y;
+//}
+// instead of the above if else we can use the followign ternary operator program as return :
+return(x>y) ? x:y 
+ 
+}
+int main (){
+int max =functimax(3,4); // we are passing the values 3 and 4 for x and y 
+printf("%d",max);
+
+return 0;
+}
