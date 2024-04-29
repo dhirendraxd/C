@@ -75,6 +75,7 @@
   "files.autoSaveWhenNoErrors": true,
   "files.autoSaveWorkspaceFilesOnly": true,
   "files.associations": {
-    "DMA FLOAT.C": "cpp"
+    "DMA FLOAT.C": "cpp",
+    "algorithm": "c"
   }
 }

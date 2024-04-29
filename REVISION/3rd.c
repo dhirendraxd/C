@@ -40,7 +40,29 @@ int main(){
         printf("you dick enter a name  ");
     }
     
+    
+    while (a==10)
+    {
+        printf("the numebr is equal to 10 so : ");
+    }
+     
+     do
+     {
+        printf("hey this is to run before ")
+     } while (a=='a'&& a=='z');
+     
+     // nested loop 
+     for (int i = 0; i < 20; i++)
+     {
+        if (i==12)
+        {
+            break; // it will not let the after 12 words to display 
 
+            continue;// it will skip the 12 and print other numbers 
+        }
+        printf("%d\n",i);
+     }
+     
 
 return 0;
 }
